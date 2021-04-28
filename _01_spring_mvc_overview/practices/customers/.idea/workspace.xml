@@ -19,50 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2527cf0d-dbd8-4ada-b3da-d29b3baaf44c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../exercises/currency-conversion/src/main/java/controllers/CurrencyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/currency-conversion/src/main/java/controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/currency-conversion/src/main/java/model/service/CurrencyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/currency-conversion/src/main/java/model/service/impl/CurrencyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/currency-conversion/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/currency-conversion/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/currency-conversion/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/currency-conversion/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/dictionary/src/main/java/controllers/DictonaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/dictionary/src/main/java/controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/dictionary/src/main/java/model/repository/impl/DictionaryRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/dictionary/src/main/java/model/service/DictionaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/dictionary/src/main/java/model/service/impl/DictionaryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/dictionary/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/dictionary/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/dictionary/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../exercises/dictionary/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/controllers/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/service/CustomerServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/service/impl/SimpleCustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-greeting/spring-greeting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-greeting/src/controllers/GreetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-greeting/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-greeting/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-greeting/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-greeting/web/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="2527cf0d-dbd8-4ada-b3da-d29b3baaf44c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +68,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../exercises/currency-conversion" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -215,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619509255286</updated>
-      <workItem from="1619509258935" duration="5688000" />
+      <workItem from="1619509258935" duration="6505000" />
     </task>
     <servers />
   </component>
@@ -238,54 +195,58 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1619509382509" />
-    <state width="1024" height="223" key="GridCell.Tab.0.bottom" timestamp="1619514846432">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1619515897708">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1619514846432" />
-    <state width="1024" height="223" key="GridCell.Tab.0.center" timestamp="1619514846432">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1619515897708" />
+    <state width="1024" height="223" key="GridCell.Tab.0.bottom" timestamp="1619515899424">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1619514846432" />
-    <state width="1024" height="223" key="GridCell.Tab.0.left" timestamp="1619514846432">
+    <state width="1024" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1619515899424" />
+    <state width="1024" height="223" key="GridCell.Tab.0.center" timestamp="1619515899424">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1619514846432" />
-    <state width="1024" height="223" key="GridCell.Tab.0.right" timestamp="1619514846432">
+    <state width="1024" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1619515899424" />
+    <state width="1024" height="223" key="GridCell.Tab.0.left" timestamp="1619515899424">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1619514846432" />
-    <state width="1024" height="223" key="GridCell.Tab.1.bottom" timestamp="1619514846387">
+    <state width="1024" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1619515899424" />
+    <state width="1024" height="223" key="GridCell.Tab.0.right" timestamp="1619515899424">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1619514846387" />
-    <state width="1024" height="223" key="GridCell.Tab.1.center" timestamp="1619514846387">
+    <state width="1024" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1619515899424" />
+    <state width="1024" height="223" key="GridCell.Tab.1.bottom" timestamp="1619515899424">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1619514846387" />
-    <state width="1024" height="223" key="GridCell.Tab.1.left" timestamp="1619514846387">
+    <state width="1024" height="223" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1619515899424" />
+    <state width="1024" height="223" key="GridCell.Tab.1.center" timestamp="1619515899424">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1619514846387" />
-    <state width="1024" height="223" key="GridCell.Tab.1.right" timestamp="1619514846387">
+    <state width="1024" height="223" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1619515899424" />
+    <state width="1024" height="223" key="GridCell.Tab.1.left" timestamp="1619515899424">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1619514846387" />
-    <state width="1024" height="223" key="GridCell.Tab.2.bottom" timestamp="1619514846387">
+    <state width="1024" height="223" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1619515899424" />
+    <state width="1024" height="223" key="GridCell.Tab.1.right" timestamp="1619515899424">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1619514846387" />
-    <state width="1024" height="223" key="GridCell.Tab.2.center" timestamp="1619514846387">
+    <state width="1024" height="223" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1619515899424" />
+    <state width="1024" height="223" key="GridCell.Tab.2.bottom" timestamp="1619515899425">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1619514846387" />
-    <state width="1024" height="223" key="GridCell.Tab.2.left" timestamp="1619514846387">
+    <state width="1024" height="223" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1619515899425" />
+    <state width="1024" height="223" key="GridCell.Tab.2.center" timestamp="1619515899425">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1619514846387" />
-    <state width="1024" height="223" key="GridCell.Tab.2.right" timestamp="1619514846387">
+    <state width="1024" height="223" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1619515899424" />
+    <state width="1024" height="223" key="GridCell.Tab.2.left" timestamp="1619515899424">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1619514846387" />
+    <state width="1024" height="223" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1619515899424" />
+    <state width="1024" height="223" key="GridCell.Tab.2.right" timestamp="1619515899425">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1619515899425" />
     <state x="249" y="7" key="SettingsEditor" timestamp="1619509308782">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

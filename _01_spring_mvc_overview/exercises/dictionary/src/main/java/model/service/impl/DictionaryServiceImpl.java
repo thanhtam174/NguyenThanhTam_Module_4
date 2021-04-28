@@ -2,21 +2,22 @@ package model.service.impl;
 
 import model.repository.impl.DictionaryRepositoryImpl;
 import model.service.DictionaryService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class DictionaryServiceImpl implements DictionaryService {
-    Set<String> keySet = DictionaryRepositoryImpl.dictionary.keySet();
 
     public DictionaryServiceImpl(){
 
     }
     @Override
     public String search(String string) {
-        for (String key:keySet) {
-            if (string.equals(key)){
-                return DictionaryRepositoryImpl.dictionary.get(key);
-            }
+        String result = DictionaryRepositoryImpl.dictionary.get(string);
+        boolean check = result != null;
+            if (check){
+                return result;
         }
         return "Not found";
     }

@@ -1,7 +1,9 @@
 package model.service.impl;
 
 import model.service.CurrencyService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class CurrencyServiceImpl implements CurrencyService {
 
     public CurrencyServiceImpl(){
