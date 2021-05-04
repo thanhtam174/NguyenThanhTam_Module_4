@@ -10,6 +10,15 @@
     </a>
 </p>
 
+<form action="#" th:action="@{/product/search}">
+    <table>
+        <tr>
+            <th><input type="text" placeholder="Search by name" name="name" style="width: 400px"></th>
+            <th><input type="submit" value="Search" style="width: 100px"></th>
+        </tr>
+    </table>
+</form>
+
 <div class="notify">
     <div th:if="${success}">
         <span th:text="${success}"></span>

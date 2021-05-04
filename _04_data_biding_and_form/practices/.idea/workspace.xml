@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84fc6bc7-b9e3-418f-a1c8-ae7c4e6f60fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/build/classes/java/main/com/codegym/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/build/classes/java/main/com/codegym/controllers/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/build/classes/java/main/com/codegym/model/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/build/classes/java/main/com/codegym/model/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/build/classes/java/main/com/codegym/model/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/build/classes/java/main/com/codegym/model/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/build/libs/product-managerment-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/build/libs/product-managerment-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/src/main/java/com/codegym/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/src/main/java/com/codegym/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/src/main/java/com/codegym/model/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/src/main/java/com/codegym/model/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/src/main/java/com/codegym/model/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/src/main/java/com/codegym/model/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/practices/customer-managerment/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/practices/customer-managerment/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1s3y1AfwMgq12WZvWHnx8ex62tU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../_03_view_anh_thymeleaf/exercises/product-managerment" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84fc6bc7-b9e3-418f-a1c8-ae7c4e6f60fc" name="Default Changelist" comment="" />
+      <created>1620115349219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620115349219</updated>
+      <workItem from="1620115350443" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1620115392955">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1620115392955" />
+  </component>
+</project>
