@@ -5,14 +5,14 @@ import com.codegym.models.Category;
 import com.codegym.sevices.BlogService;
 import com.codegym.sevices.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
+
+import java.util.Optional;
 
 @Controller
 public class BlogController {
@@ -23,7 +23,7 @@ public class BlogController {
     CategoryService categoryService;
 
     @ModelAttribute("categories")
-    public Iterable<Category> categorys() {
+    public Iterable<Category> categories() {
         return categoryService.findAll();
     }
 
@@ -35,7 +35,7 @@ public class BlogController {
     }
 
     @PostMapping("/create-blog")
-    public ModelAndView saveCustomer(@ModelAttribute("blog") Blog blog) {
+    public ModelAndView saveBlog(@ModelAttribute("blog") Blog blog) {
         blogService.save(blog);
         ModelAndView modelAndView = new ModelAndView("/blog/create");
         modelAndView.addObject("blog", new Blog());
@@ -44,8 +44,16 @@ public class BlogController {
     }
 
     @GetMapping("/blogs")
-    public ModelAndView getList(@PageableDefault(value = 5)Pageable pageable){
-        return new ModelAndView("/blog/list","blogList",blogService.findAll(pageable));
+    public ModelAndView listCustomers(@RequestParam("search") Optional<String> search, @PageableDefault(value = 5) Pageable pageable){
+        Page<Blog> blogs;
+        if(search.isPresent()){
+            blogs = blogService.findAllByTitleContaining(search.get(), pageable);
+        } else {
+            blogs = blogService.findAll(pageable);
+        }
+        ModelAndView modelAndView = new ModelAndView("/blog/list");
+        modelAndView.addObject("blogList", blogs);
+        return modelAndView;
     }
 
     @GetMapping("/edit-blog/{id}")
@@ -63,7 +71,7 @@ public class BlogController {
     }
 
     @PostMapping("/edit-blog")
-    public ModelAndView updateCustomer(@ModelAttribute("blog") Blog blog) {
+    public ModelAndView updateBlog(@ModelAttribute("blog") Blog blog) {
         blogService.save(blog);
         ModelAndView modelAndView = new ModelAndView("/blog/edit");
         modelAndView.addObject("blog", blog);
@@ -86,7 +94,7 @@ public class BlogController {
     }
 
     @PostMapping("/delete-blog")
-    public String deleteCustomer(@ModelAttribute("blog") Blog blog) {
+    public String deleteBlog(@ModelAttribute("blog") Blog blog) {
         blogService.deleteById(blog.getId());
         return "redirect:blogs";
     }
