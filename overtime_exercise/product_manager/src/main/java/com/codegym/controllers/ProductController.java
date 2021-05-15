@@ -5,6 +5,9 @@ import com.codegym.models.Product;
 import com.codegym.services.CategoryService;
 import com.codegym.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
@@ -20,14 +23,15 @@ public class ProductController {
     @Autowired
     CategoryService categoryService;
 
+
     @ModelAttribute("categories")
-    public Iterable<Category> categories() {
-        return categoryService.findAll();
+    public Iterable<Category> categories(Pageable pageable) {
+        return categoryService.findAll(pageable);
     }
 
     @GetMapping
-    public ModelAndView getProductList(){
-       List<Product> products = productService.findAll();;
+    public ModelAndView getProductList(@PageableDefault(value = 10)Pageable pageable){
+       Page<Product> products = productService.findAll(pageable);;
        ModelAndView modelAndView = new ModelAndView("product/list");
        modelAndView.addObject("products",products);
        return modelAndView;
@@ -53,6 +57,7 @@ public class ProductController {
     @PostMapping("/edit")
     public String edit(@ModelAttribute("product") Product product){
         productService.save(product);
+
         return "redirect:/product";
     }
 
@@ -63,8 +68,14 @@ public class ProductController {
     }
 
     @PostMapping("/delete")
-    public String delete(@RequestParam("idDelete") Long id){
-        productService.deleteById(id);
+    public String delete(@ModelAttribute("product") Product product){
+        productService.deleteById(product.getId());
         return "redirect:/product";
+    }
+
+    @GetMapping("/detail/{id}")
+    public ModelAndView view(@PathVariable Long id){
+        Product product = productService.findById(id);
+        return new ModelAndView("/product/detail","product",product);
     }
 }

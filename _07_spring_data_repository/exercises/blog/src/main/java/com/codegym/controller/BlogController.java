@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
+import org.springframework.data.web.SortDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
@@ -44,14 +45,17 @@ public class BlogController {
     }
 
     @GetMapping("/blogs")
-    public ModelAndView listCustomers(@RequestParam("search") Optional<String> search, @PageableDefault(value = 5) Pageable pageable){
+    public ModelAndView listCustomers(@RequestParam("search") Optional<String> search,@SortDefault(sort = "title") @PageableDefault(value = 5) Pageable pageable){
         Page<Blog> blogs;
+        String categorySearch = "";
         if(search.isPresent()){
+            categorySearch=search.get();
             blogs = blogService.findAllByTitleContaining(search.get(), pageable);
         } else {
             blogs = blogService.findAll(pageable);
         }
         ModelAndView modelAndView = new ModelAndView("/blog/list");
+        modelAndView.addObject("categorySearch", categorySearch);
         modelAndView.addObject("blogList", blogs);
         return modelAndView;
     }

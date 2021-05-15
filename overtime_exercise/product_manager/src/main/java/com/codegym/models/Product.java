@@ -3,13 +3,14 @@ package com.codegym.models;
 import lombok.*;
 
 import javax.persistence.*;
-
+import java.util.List;
 
 
 @Entity
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "product_id", nullable = false)
     private Long id;
 
 
@@ -26,14 +27,18 @@ public class Product {
     @JoinColumn(name="category_id", nullable=false)
     private Category category;
 
+    @ManyToMany(mappedBy = "productOder")
+    private List<ProductOder> oderSet;
+
     public Product() {
     }
 
-    public Product(Long id, String productName, Detail detail, Category category) {
+    public Product(Long id, String productName, Detail detail, Category category, List<ProductOder> oderSet) {
         this.id = id;
         this.productName = productName;
         this.detail = detail;
         this.category = category;
+        this.oderSet = oderSet;
     }
 
     public Long getId() {
@@ -66,5 +71,13 @@ public class Product {
 
     public void setCategory(Category category) {
         this.category = category;
+    }
+
+    public List<ProductOder> getOderSet() {
+        return oderSet;
+    }
+
+    public void setOderSet(List<ProductOder> oderSet) {
+        this.oderSet = oderSet;
     }
 }
